@@ -84,22 +84,21 @@ p {
 .navTop{
     display:flex;
     align-items:baseline;
+    margin-top:2%;
 }
 
 .logo{
-    border: 2px solid blue;
+    border:0;
 }
 .logo img{
-    border: 2px solid red;
+    padding:0;
 }
 .links{
     display:flex;
     justify-content:space-evenly;
-    /* border: 3px solid black; */
-    width:50vw;
+    width:100vw;
 }
 .links a{
-    /* border: 3px solid black; */
     text-decoration: none;
     color:black;
 }
@@ -254,14 +253,17 @@ footer nav a {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     
     
 }
 .midAbout div{
-    width: 49%;
+    width: 46%;
+    
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display:flex;
+    flex-direction:column;
 }
 
 .button{
@@ -271,7 +273,8 @@ footer nav a {
     background:#fff;
     border: 2px solid black;
     border-radius:6px;
-    padding:2% 4%;
+    padding:1.5% 4%;
+    width:33%;
 }
 
 .botAbout{
