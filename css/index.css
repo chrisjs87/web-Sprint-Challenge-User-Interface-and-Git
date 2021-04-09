@@ -247,10 +247,10 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.topAbout h2,p{
+
+.topAbout p,.topAbout h2{
     margin: 0 2% 2% 2%;
 }
-
 .midAbout{
     display:flex;
     flex-direction: row;
