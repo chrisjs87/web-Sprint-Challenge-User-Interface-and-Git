@@ -79,6 +79,8 @@ p {
 
 /* More general style */
 
+
+/* Home page */
 .navTop{
     display:flex;
     align-items:baseline;
@@ -237,3 +239,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* specifics to about page */
+
+.topAbout{
+    margin: 0 2% 2% 2%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.midAbout{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.midAbout div{
+    width: 49%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.botAbout{
+    margin: 4% 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
